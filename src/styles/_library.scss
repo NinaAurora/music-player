@@ -1,14 +1,15 @@
 .library{
 position: fixed;
+box-shadow: 2px 2px 50px rgb(204, 204, 204);
+border-radius: 1rem;
 top: 0;
 left: 0;
 width: 20rem;
 height: 100%;
-background-color: white;
-box-shadow: 2px 2px 50px rgb(204, 204, 204);
 overflow: scroll;
+background-color: white;
 transform: translateX(-100%);
-transition: all 0.5 ease;
+transition: all 0.5s ease;
 opacity: 0;
 h2 {
     padding: 2rem;
